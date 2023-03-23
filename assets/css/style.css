@@ -11,7 +11,7 @@ html {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
 }
 
 .h1,h1 {
@@ -40,7 +40,7 @@ html {
 
 p {
     font-family: "Lato", sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .nav {
@@ -52,6 +52,8 @@ p {
     padding: 1rem 6.5rem;
     background: #C8A27A;
     z-index: 1000;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.44rem;
 }
 
 .nav .logo{
@@ -78,7 +80,7 @@ p {
 }
 
 #item li a:hover {
-    color: #ff5733;
+    color: #5E5454;
     cursor: pointer;
 }
 
@@ -107,11 +109,11 @@ p {
 
 .bgtext p {
     color: #a1bfc1;
-    font-size: 1.2rem;
 }
 
 .bgtext h2 {
     color: #fff;
+    font-weight: 700;
     font-size: 5.16rem;
 }
 
@@ -135,14 +137,12 @@ p {
 }
 
 .profile .protext h3{
-    font-weight: 700;
-    font-size: 2.5rem;
+    font-weight: 600;
     padding-bottom: 1.2rem;
 }
 
 .profile .protext p{
     font-weight: 400;
-    font-size: 1.2rem;
     text-align: center;
     padding-bottom: 1.2rem;
     font-family: "Lato", sans-serif;
@@ -159,7 +159,7 @@ p {
 }
 
 .galtitle h3 {
-    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 .gallery {
@@ -178,10 +178,9 @@ p {
     width: 48%;
 }
 
-.gallery .one h6 {
+.gallery .one p {
     text-align: center;
     font-weight: 400;
-    font-size: 1.2rem;
     font-family: "Lato", sans-serif;
     padding: 2rem 0rem;
 }
@@ -200,12 +199,11 @@ p {
     width: 48%;
 }
 
-.gallery .two h6 {
+.gallery .two p {
     text-align: center;
     font-weight: 400;
-    font-size: 1.2rem;
     font-family: "Lato", sans-serif;
-    padding: 4.25rem 0rem;
+    padding: 4.9rem 0rem;
 }
 
 .gallery .two .gallery3 {
@@ -227,24 +225,15 @@ p {
     width: 45%;
 }
 
-.foot .one h5 {
-    font-weight: 500;
-    font-size: 2rem;
-    color: #000;
-}
-
-.foot .one h6 {
-    font-weight: 500;
-    font-size: 1.2rem;
-    padding: 1rem 0rem 0rem 0rem;
+.foot .one h3 {
+    font-weight: 600;
+    padding: 1rem 0rem;
     color: #000;
 }
 
 .foot .one p {
-    font-weight: 500;
-    font-size: 1.1rem;
-    padding: 0rem 0rem 1rem 0rem;
-    color: #4a5253;
+    font-weight: 400;
+    color: #000;
 }
 
 .foot .two {    
@@ -255,15 +244,13 @@ p {
     width: 100%;
 }
 
-.foot .two h6 {
-    font-weight: 500;
-    font-size: 2rem;
+.foot .two h3 {
+    font-weight: 600;
     color: #000;
 }
 
 .foot .two p {
-    font-weight: 500;   
-    font-size: 1.1rem;
+    font-weight: 400;
     padding: 1rem 0rem;
-    color: #4a5253;
+    color: #000;
 }
