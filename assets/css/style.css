@@ -427,7 +427,7 @@ p {
     }
     
     .history {
-        width: 95vw;
+        width: 100vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -481,7 +481,7 @@ p {
     }
     
     .gallery {
-        width: 100%;
+        width: 100vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
