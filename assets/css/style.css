@@ -528,96 +528,7 @@ p {
         width: 200px;
         height: 217px;
     }
-    
-    #testimonials{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        padding-top: 9rem;
-        padding-bottom: 10rem;
-        padding-left: 10rem;
-        padding-right: 10rem;
-    }
-    
-    .testimonial-heading h3{
-        align-items: center;
-        text-align: center;
-        font-weight: 600;
-        color: #fff;
-        background-color: #252525;
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    
-    .testimonial-box-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        width:100%;
-        padding-top: 3rem;
-    }
-    
-    .testimonial-box{
-        width:500px;
-        box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
-        background-color: #ffffff;
-        padding: 20px;
-        margin: 15px;
-        cursor: pointer;
-    }
-    .profile-img{
-        width:50px;
-        height: 50px;
-        border-radius: 50%;
-        overflow: hidden;
-        margin-right: 10px;
-    }
-    .profile-img img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-    .profile{
-        display: flex;
-        align-items: center;
-    }
-    .name-user{
-        display: flex;
-        flex-direction: column;
-    }
-    .name-user strong{
-        font-family: "Poppins", sans-serif;
-        color: #3d3d3d;
-        font-size: 1.44rem;
-        letter-spacing: 0.5px;
-    }
-    .name-user span{
-        font-family: "Lato", sans-serif;
-        color: #979797;
-        font-size: 1rem;
-    }
-    .reviews{
-        color: #f9d71c;
-    }
-    .box-top{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-    .client-comment p{
-        font-size: 1.2rem;
-        color: #4b4b4b;
-    }
-    .testimonial-box:hover{
-        transform: translateY(-10px);
-        transition: all ease 0.3s;
-    }
-    
+
     .foot {
         background: #252525;
         width: 100vw;
@@ -649,7 +560,7 @@ p {
     
     .foot .two iframe {
         width: 100%;
-    }
+    
     
     .foot .two h3 {
         font-weight: 600;
@@ -663,3 +574,7 @@ p {
     }
 }
    
+
+@media  screen and (max-width : 496px) {
+     
+}
